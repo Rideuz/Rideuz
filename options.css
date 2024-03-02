@@ -1,0 +1,90 @@
+*{margin: 0 auto;}
+header h1{
+    font-size: 30px;
+    color: aliceblue;
+    width: 65%;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table_msg {
+    width: 100%;
+}
+.td-right {
+    word-wrap: break-word;
+    max-width: 300px;
+    min-width: 300px;
+}
+.tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+header{
+    background-color: black;
+    margin: 0 auto;
+    height: 150px
+}
+.position{
+    display: flex;
+    flex-direction: row;
+    width: 80%S;
+}
+body h2{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    bottom: 0px;
+    width: 100%;
+    text-align: right;
+}
+footer h1{
+    font-size: 30px;
+    color: aliceblue;
+}
+.buttonpos{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.button1{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    color: aquamarine;
+}
+.textarea1{
+    width: 200px;
+    height: 200px;
+}
+#output{
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 20px;
+}
+#output img{
+    width: 200px;
+    height: 200px;
+}
+.img-table-left{
+    width: 200px;
+    padding-right: 20px;
+}
+main{
+    min-height: 100vh;
+}
+#button_send_msg{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color: crimson;
+}
