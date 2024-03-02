@@ -11,6 +11,9 @@
 include('header.php');
 ?>
 <body>
+<?php
+include('nav.php');
+?>
     <main>
     <h2>Красивые виды </h2>
         <div class="wrapper">

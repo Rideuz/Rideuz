@@ -30,11 +30,6 @@ header{
     margin: 0 auto;
     height: 150px
 }
-.position{
-    display: flex;
-    flex-direction: row;
-    width: 80%S;
-}
 body h2{
     display: flex;
     justify-content: center;
@@ -49,31 +44,6 @@ footer{
 footer h1{
     font-size: 30px;
     color: aliceblue;
-}
-.buttonpos{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-}
-.button1{
-    height: 200px;
-    width: 200px;
-    border-radius: 10px;
-    color: aquamarine;
-}
-.textarea1{
-    width: 200px;
-    height: 200px;
-}
-#output{
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 20px;
-}
-#output img{
-    width: 200px;
-    height: 200px;
 }
 .img-table-left{
     width: 200px;

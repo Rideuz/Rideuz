@@ -10,6 +10,9 @@
 include('header.php');
 ?>
 <body>
+<?php
+include('nav.php');
+?>
     <h2> Форма Регистрации</h2>
     <form action="reg.php" method="get">
     <label for="login"> Имя пользователя:</label>

@@ -10,7 +10,10 @@
 include('header.php');
 ?>
 <body>
-    
+<?php
+include('nav.php');
+?>
+
 </body>
 <?php
 include('footer.php');
