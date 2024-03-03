@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel ="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Authorization</title>
 </head>
 <?php
 include('header.php');
@@ -13,13 +14,20 @@ include('header.php');
 <?php
 include('nav.php');
 ?>
-<h2> Форма Авторизации</h2>
-    <form action="reg.php" method="$_GET">
-    <label for="username"> Имя пользователя:</label>
-    <input type="text" id="login" name="login" include>
-    <label for="password"> Пароль:</label>
-    <input type="password" id="password" name="password" include>
-</form>
+<main>
+<div class="container">
+    <div class="form-container">
+        <h2>Форма Авторизации</h2>
+        <form action="reg.php" method="get">
+            <label for="login">Имя пользователя:</label>
+            <input type="text" id="login" name="login" required placeholder="Как Вас зовут?">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required placeholder="Ваш надёжный пароль">
+            <input type="submit" value="Авторизоваться">
+        </form>
+    </div>
+</div>
+</main>
 </body>
 <?php
 include('footer.php');
