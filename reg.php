@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$conn = new mysqli($servername, $username, $password, 'web_app');
+$conn = new mysqli($servername, $username, $password, 'myveb1');
 
 if (isset($_GET['login']))
 {
@@ -11,5 +11,9 @@ if (isset($_GET['login']))
 }
 
 $sql = "INSERT INTO users (login, password) VALUES ('$log', '$pas')";
-$conn -> query($sql);
+if ($conn->query($sql) === TRUE) {
+    echo "Регистрация успешно завершена.";
+} else {
+    echo "Ошибка регистрации: " . $conn->error;
+}
 ?>
